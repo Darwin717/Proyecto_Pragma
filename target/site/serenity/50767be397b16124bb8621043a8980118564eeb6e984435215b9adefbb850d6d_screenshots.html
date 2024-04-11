@@ -1,0 +1,229 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script><!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="9eae67d166a5a0f4c3c60da9b5cc721cad4914604347f05c23d60d16015e700b.html">Agregar Productos A Carrito De Compra Exitosamente</a></span>
+                > <span class="truncate-60"><a
+                    href="50767be397b16124bb8621043a8980118564eeb6e984435215b9adefbb850d6d.html">Agregar Producto En Categoria Telefonos </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 11-04-2024 13:13</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Agregar Productos A Carrito De Compra Exitosamente </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                yo como usuario quiero ingresar a la pagina demoblaze<br />
+para agregar productos al carrito de forma exitosa
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="a21c77005a0fac17b776bde2bd3c4783da2a65607cc0512b26eae78d4312cfca.html">Agregarproductoencategoriatelefonos
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Agregar Producto En Categoria Telefonos
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="a58cb069adea94f99643cd1bb7eb9f2f0ecc8dcc945ab2e61a1c450254bb276a.png" title=" Dado que darwin quiere iniciar sesion en la pagina de demoblaze" width="1920"/>
+                <img src="a58cb069adea94f99643cd1bb7eb9f2f0ecc8dcc945ab2e61a1c450254bb276a.png" title=" Darwin abrir navegador" width="1920"/>
+                <img src="a58cb069adea94f99643cd1bb7eb9f2f0ecc8dcc945ab2e61a1c450254bb276a.png" title=" darwin opens the https://www.demoblaze.com/" width="1920"/>
+                <img src="a58cb069adea94f99643cd1bb7eb9f2f0ecc8dcc945ab2e61a1c450254bb276a.png" title=" Darwin abrir navegador (completed)" width="1920"/>
+                <img src="a58cb069adea94f99643cd1bb7eb9f2f0ecc8dcc945ab2e61a1c450254bb276a.png" title=" Dado que darwin quiere iniciar sesion en la pagina de demoblaze (completed)" width="1920"/>
+                <img src="7245dea7460d5249e52029bb2a1afd028a8e5e83eea06090922041e999f2ff9d.png" title=" Cuando ingresa un usuario darwin17 y una clave 1234567 existentes" width="1920"/>
+                <img src="7245dea7460d5249e52029bb2a1afd028a8e5e83eea06090922041e999f2ff9d.png" title=" Darwin iniciar sesion exitosamente" width="1920"/>
+                <img src="7245dea7460d5249e52029bb2a1afd028a8e5e83eea06090922041e999f2ff9d.png" title=" darwin clicks on Boton para iniciar el acceso al sistema" width="1920"/>
+                <img src="92726942dfdc578725ef9b10799fbf81189d3da357f39f7b0f676ba745e9ac98.png" title=" darwin enters 'darwin17' into Campo para ingresar el nombre de usuario existente " width="1920"/>
+                <img src="b4ccda09fe53f234e8af1437b9b175cf9279a7445db3d8d048713243db2005c5.png" title=" darwin enters '1234567' into Campo para ingresar la clave " width="1920"/>
+                <img src="a976d1af195843f51a7af06b65e727da73b82cbb30f90c0f8c2393a57dc39692.png" title=" darwin clicks on Boton para finalizar la inscripcion de forma correcta" width="1920"/>
+                <img src="869d6f03e30b6fdb4f98a152c77e9cbe7cb04b26e134773cf68ed33a4f066cdf.png" title=" Darwin esperar" width="1920"/>
+                <img src="869d6f03e30b6fdb4f98a152c77e9cbe7cb04b26e134773cf68ed33a4f066cdf.png" title=" Darwin iniciar sesion exitosamente (completed)" width="1920"/>
+                <img src="869d6f03e30b6fdb4f98a152c77e9cbe7cb04b26e134773cf68ed33a4f066cdf.png" title=" Cuando ingresa un usuario darwin17 y una clave 1234567 existentes (completed)" width="1920"/>
+                <img src="869d6f03e30b6fdb4f98a152c77e9cbe7cb04b26e134773cf68ed33a4f066cdf.png" title=" Y esta en la pagina principal agrega un producto de la categoria telefonos" width="1920"/>
+                <img src="869d6f03e30b6fdb4f98a152c77e9cbe7cb04b26e134773cf68ed33a4f066cdf.png" title=" Darwin agregar telefono a carrito" width="1920"/>
+                <img src="869d6f03e30b6fdb4f98a152c77e9cbe7cb04b26e134773cf68ed33a4f066cdf.png" title=" darwin clicks on Boton para ver telefonos disponibles" width="1920"/>
+                <img src="a191b5e8e68d2cf6a1f60852f041ba5879d376ced2773daf0afcacf37f043949.png" title=" darwin clicks on Seleccionar telefono sonyZ5" width="1920"/>
+                <img src="988e07e94b5bac222d93bb62045bfad8e34160608c9e842fa3da56a6d41b9c60.png" title=" darwin clicks on Boton para agregar telefono al carrito " width="1920"/>
+                <img src="08c481152a302d30bc53ff856095e2955503024e3e674b2c9a7e0ce5b9f2e11d.png" title=" Darwin agregar telefono a carrito (completed)" width="1920"/>
+                <img src="08c481152a302d30bc53ff856095e2955503024e3e674b2c9a7e0ce5b9f2e11d.png" title=" Y esta en la pagina principal agrega un producto de la categoria telefonos (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.70</span>
+</div>
+</body>
+</html>
