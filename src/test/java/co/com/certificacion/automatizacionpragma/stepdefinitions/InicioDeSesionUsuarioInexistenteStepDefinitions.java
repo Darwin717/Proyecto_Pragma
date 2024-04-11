@@ -2,7 +2,7 @@ package co.com.certificacion.automatizacionpragma.stepdefinitions;
 
 import co.com.certificacion.automatizacionpragma.interactions.AbrirNavegador;
 import co.com.certificacion.automatizacionpragma.tasks.IniciarSesionConUsuarioInexistente;
-import co.com.certificacion.automatizacionpragma.tasks.IniciarSesionExitosamente;
+
 import cucumber.api.java.es.Dado;
 import cucumber.api.java.es.Entonces;
 

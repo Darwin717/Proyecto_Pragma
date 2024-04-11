@@ -14,8 +14,8 @@ import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isClic
 
 public class IniciarSesionConUsuarioInexistente implements Task {
 
-    private String usuario;
-    private String clave;
+    private final String usuario;
+    private final String clave;
 
     public IniciarSesionConUsuarioInexistente(String usuario, String clave){
         this.usuario = usuario;

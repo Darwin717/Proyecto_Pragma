@@ -17,8 +17,8 @@ import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isClic
 
 public class CrearUsuarioYClave implements Task {
 
-    private String usuario;
-    private String clave;
+    private final String usuario;
+    private final String clave;
 
     public CrearUsuarioYClave(String usuario, String clave){
         this.usuario = usuario;

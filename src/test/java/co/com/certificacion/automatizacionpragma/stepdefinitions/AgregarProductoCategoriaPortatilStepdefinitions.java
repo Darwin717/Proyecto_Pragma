@@ -2,7 +2,7 @@ package co.com.certificacion.automatizacionpragma.stepdefinitions;
 
 
 import co.com.certificacion.automatizacionpragma.tasks.AgregarPortatilACarrito;
-import co.com.certificacion.automatizacionpragma.tasks.AgregarTelefonoACarrito;
+
 import cucumber.api.java.es.Y;
 
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;

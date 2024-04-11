@@ -7,7 +7,7 @@ import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.waits.WaitUntil;
 
 import static co.com.certificacion.automatizacionpragma.userinterface.PaginaAgregarMonitorAcarrito.*;
-import static co.com.certificacion.automatizacionpragma.userinterface.PaginaAgregarPortatilAcarrito.*;
+
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isClickable;
 
